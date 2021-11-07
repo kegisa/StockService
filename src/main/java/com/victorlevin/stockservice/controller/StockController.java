@@ -21,7 +21,7 @@ public class StockController {
         return stockService.getStocksByTickers(tickersDto);
     }
 
-    @PostMapping("/getPrices")
+    @PostMapping("/prices")
     public StocksWithPrices getPrices(@RequestBody StocksDto stocksDto) {
         return stockService.getPrices(stocksDto);
     }
