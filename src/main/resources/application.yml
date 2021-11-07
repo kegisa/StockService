@@ -5,9 +5,11 @@ api :
   tinkoffConfig :
     tinkoffService : ${gcpTinkoffService}
     getStocksByTickers : /stocks/getStocksByTickers
+    getPrices: /prices
   moexConfig:
     moexService: ${gcpMoexService}
     getStocksByTickers: /bonds/getBondsByTickers
+    getPrices: /bonds/prices
 
 springdoc:
   api-docs:
